@@ -15,31 +15,53 @@ To provide a clear example of how collinearity—even in models with excellent s
 # Model Specification
 
 Dependent Variable:
+
 Apple Inc. Stock Price (AAPL)
+
+
 Independent Variables:
+
 Dow Jones Index
+
 Federal Reserve Interest Rates (USA)
+
 Consumer Price Index (USA)
+
 Key Concepts Explored
+
 Variance Inflation Factor (VIF) to measure multicollinearity.
-Interpretation of OLS Results.
+
+OLS Results interpretation.
+
 
 # Python Libraries:
+
 pandas
+
 numpy
-pandas_datareader.data 
+
+pandas_datareader.data
+
 datetime
-seaborn 
-matplotlib.pyplot 
-statsmodels.api 
+
+seaborn
+
+matplotlib.pyplot
+
+statsmodels.api
+
 sklearn.model_selection
+
 sklearn.metrics
 
 
 # References:
+
 Companion model: MARKET_RISK-OLS_Model
+
 Data Sources: Yahoo Finance, FRED Economic Data
 
 
 # Author:
+
 Cristina Orozco
